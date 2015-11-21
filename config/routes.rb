@@ -8,4 +8,8 @@ Rails.application.routes.draw do
   resources :teachers
 
   resources :visitors, only: :index
+
+  namespace :reports, as: 'report' do
+    get :subjects
+  end
 end
