@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/railsbeginner/wroclaw_workshops.svg)](https://travis-ci.org/railsbeginner/wroclaw_workshops)
+
 RoR Workshops
 ================
 
