@@ -14,4 +14,12 @@
 #= require jquery_ujs
 #= require turbolinks
 #= require bootstrap-sprockets
+#= require bootstrap-datepicker
 #= require_tree .
+
+$(document).ready ->
+  $('.date_picker').datepicker(
+    startView: 2,
+    autoclose: true,
+    defaultViewDate: { year: 1960}
+    ) 
