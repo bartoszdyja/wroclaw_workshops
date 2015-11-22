@@ -22,6 +22,7 @@ gem 'gretel'
 gem 'bootstrap-datepicker-rails'
 gem 'jquery-turbolinks'
 gem 'faker'
+gem 'jquery-datatables-rails', '~> 3.3.0'
 
 group :development do
   gem 'better_errors'
