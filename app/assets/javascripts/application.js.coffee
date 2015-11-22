@@ -16,9 +16,11 @@
 #= require turbolinks
 #= require bootstrap-sprockets
 #= require bootstrap-datepicker
+#= require dataTables/jquery.dataTables
 #= require_tree .
 
 $(document).ready ->
+  $('#accounts').DataTable()
   $('.date_picker').datepicker(
     startView: 2,
     autoclose: true,

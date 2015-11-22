@@ -1,6 +1,6 @@
 - breadcrumb :accounts
 
-%table.table.table-condensed
+%table.table.table-condensed#accounts
   %thead
     %tr
       %th= t('student.columns.first_name')
@@ -8,9 +8,9 @@
       %th= t('student.columns.balance')
       %th= t('student.columns.payment_date')
   %tbody
-    -students.each do |student|
+    -accounts.each do |account|
       %tr
-        %td= student.first_name
-        %td= student.last_name
-        %td= student.account.balance
-        %td= student.account.payment_date
+        %td= account.student.first_name
+        %td= account.student.last_name
+        %td= account.balance
+        %td= account.payment_date
