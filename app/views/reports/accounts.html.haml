@@ -1,10 +1,6 @@
-= content_for :header do
-  = stylesheet_link_tag 'https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css'
-  = javascript_include_tag 'https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js'
-
 - breadcrumb :accounts
 
-%table.table.table-condensed#accounts
+%table.table.table-condensed.datatable
   %thead
     %tr
       %th= t('student.columns.first_name')
